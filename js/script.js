@@ -5,7 +5,7 @@
   var getbutton = document.getElementById("button")
 
   //Click Add Event
-  getbutton.addEventListener("click", toDoList, false)
+  getbutton.addEventListener("click", toDoList, closeTag, false)
 
   //Adds item to list
   function toDoList() {
@@ -19,6 +19,7 @@
   }
 
   function closeTag() {
+    console.log(wswsw);
 
     var myNodelist = document.getElementByTagName("li")
     var i
